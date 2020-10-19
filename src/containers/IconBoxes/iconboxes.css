@@ -1,0 +1,137 @@
+.icon-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 200px 60px;
+    background: url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Mask\ Group\ 16.png);
+    background-size: cover;
+    background-position: center -9rem;
+}
+.icon-boxes .box{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border: 2px solid var(--main-bg-color-deep);
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    text-transform: capitalize;
+    display: block;
+    text-decoration: none;
+}
+.icon-boxes .box:hover{
+    color: white;
+    transition: all 0.6s ease;
+    transform: translateY(-5px) scale(1.03);
+}
+.icon-boxes .box p{
+    color: var(--main-bg-color-deep);
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0.4rem;
+}
+.icon-boxes .box img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+.plus{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.icon-boxes .active{
+    background-color: var(--main-bg-color-deep);
+    color: white;
+    font-size: 15px;
+}
+.icon-boxes .active:hover{
+    color: #006633;
+    text-decoration: none;
+}
+.icon-boxes .active .plus{
+    font-size: 40px;
+    margin-top: 8px;
+    position: relative;
+}
+.icon-boxes .active p{
+    color: white;
+}
+@media only screen and (max-width: 700px){
+    .icon-boxes{
+        justify-content: space-between;
+        padding: 40px 8px;
+    }
+    .icon-boxes .box{
+        position: relative;
+        width: 80px;
+        height: 70px;
+        border: 1px solid var(--main-bg-color-deep);
+        margin: 0 0.2rem;
+    }
+    .icon-boxes .box p{
+        padding-bottom: 0.4rem;
+        font-size: 0.64rem;
+        word-wrap: break-word;
+    }
+    .icon-boxes .box img{
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+        margin-bottom: 2px;
+    }
+    .plus{
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+    .icon-boxes .active{
+        background-color: var(--main-bg-color-deep);
+        color: white;
+        font-size: 15px;
+    }
+    .icon-boxes .active .plus{
+        font-size: 30px;
+        margin-top: 0px;
+        position: relative;
+    }
+    .icon-boxes .active p{
+        color: white;
+        margin-top: -0.5rem;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 1100px){
+    .icon-boxes{
+        justify-content: space-between;
+        padding: 40px 10%;
+    }
+    .icon-boxes .box{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border: 2px solid var(--main-bg-color-deep);
+        margin: 0 0.2rem;
+    }
+    .icon-boxes .box p{
+        padding-bottom: 0.4rem;
+        font-size: 0.9rem;
+        word-wrap: break-word;
+    }
+    .icon-boxes .box img{
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .plus{
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+    .icon-boxes .active p{
+        color: white;
+        margin-top: -0.5rem;
+        
+    }
+}

@@ -1,0 +1,36 @@
+
+.polygons-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    background-color: pink;
+}
+.polygons-wrapper .polygons{
+    background-color: var(--main-bg-color-deep);
+    padding: 2.5em 0;
+    width: 100%;
+    margin: 0;
+}
+.polygons-wrapper .items{
+    display: flex;
+    justify-content:space-between;
+    background-color: inherit;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.polygons-wrapper .item{
+    background-color: inherit;
+    width: 130%;
+    height: 220px;    
+}
+.polygons-wrapper img{
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 0 100%, 25% 50%, 0 0);
+}
+.polygons-wrapper h4{
+    font-size: 2em;
+}

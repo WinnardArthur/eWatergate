@@ -1,0 +1,41 @@
+.feedpage-waterplatform{
+    border: 1px solid gray;
+    margin-top: 2rem;
+}
+.feedpage-waterplatform .bg-colored{
+    background: var(--main-bg-color-deep);
+    height: 3rem;
+}
+.feedpage-waterplatform .bg-colored{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedpage-waterplatform .bg-colored h3{
+    text-transform: capitalize;
+    color: white;
+    font-weight: 500;
+}
+.feedpage-waterplatform .card-body{
+    overflow-y: scroll;
+    height: 14.5rem;
+}
+.feedpage-waterplatform .card-body .water-link{
+    color: var(--main-bg-color-deep);
+    text-transform: capitalize;
+    font-weight: 600;
+    display: block;
+    color: var(--main-bg-color-deep);
+    border-top: 1px solid var(--main-bg-color-deep);
+    font-weight: bold;
+    padding: 0.8rem 0.8rem 0.5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.feedpage-waterplatform .card-body .water-link .fa{
+    font-size: 2rem;
+    display: block;
+    margin-right: 0.2rem;
+}
+

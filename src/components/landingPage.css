@@ -1,0 +1,10 @@
+.landing-page .landing-page-polygon-section{
+    width: 93%;
+    margin: -3rem auto 0;
+    background: url(../water\ gate\ assets/File4_1_.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-color: white;    
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}

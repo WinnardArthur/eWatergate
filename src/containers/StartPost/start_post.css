@@ -1,0 +1,46 @@
+.start-post{
+    border: 2px solid var(--main-bg-color-deep);
+    margin-top: 2rem;
+    text-align: left;
+}
+.start-post .row-1{
+    padding: 1rem 2rem 3rem;
+}
+.start-post .row-1 button{
+    color: var(--main-bg-color-deep);
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.start-post .row-1 button .fa-edit{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.start-post .row-1 button h6{
+    font-size: 0.9rem;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.start-post .buttons{
+    border-top: 2px solid var(--main-bg-color-deep);
+    padding: 0.5rem 2rem;
+}
+.start-post .buttons button{
+    color: var(--main-bg-color-deep);
+    background-color: white;
+    border: none;
+    outline: none;
+    margin-right: 2.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.start-post .buttons button .fa{
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0.2rem;
+}

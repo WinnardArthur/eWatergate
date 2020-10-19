@@ -1,0 +1,21 @@
+.feedpage-recentactivity{
+    border: 1px solid var(--main-bg-color-deep);
+    margin-top: 2rem;
+}
+.feedpage-recentactivity .bg-colored{
+    background: var(--main-bg-color-deep);
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedpage-recentactivity .bg-colored h3{
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600;
+}
+.feedpage-recentactivity .card-body{
+    height: 18rem;
+}
+
+

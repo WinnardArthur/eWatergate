@@ -1,0 +1,140 @@
+.hero-section .hero{
+    background: linear-gradient(to top, rgba(0, 51, 102, 0.4), rgba(0, 51, 102, 0.8)), url(../../water\ gate\ assets/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 75vh;
+    position: relative;
+}
+.hero-section .hero .text{
+    color: white;
+    text-align: left;
+    padding-left: 2%;
+    position: absolute;
+    top: 40%;
+}
+.hero-section .hero .text h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.hero-section .hero .text p{
+    font-size: 1.6rem;
+    width: 65%;
+    font-weight: 400;
+}
+.hero-section .hero .btns{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.hero-section .hero button{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: none;
+    text-transform: capitalize;
+    outline: none;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+}
+.hero-section .hero button:hover{
+    z-index: 10;
+    transition: all 0.8s;
+    transform: scale(1.2);
+}
+.hero-section .hero .register{
+    background-color: var(--main-bg-color-light);
+    opacity: 0.7;
+    padding-bottom: 18px;
+    margin-bottom: -2rem;
+}
+.hero-section .hero .app{
+    background-color:var(--main-bg-color-deep);
+    color: white;
+    z-index: 1;
+    margin-left: -1rem;
+    padding: 1rem 0.5rem 0.2rem;
+    height: 80px;
+    width: 80px;
+    font-size: 14px;
+}
+.hero-section .info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero-section .info .blue-bg{
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    background-color: var(--main-bg-color-deep);
+}
+.hero-section .info .blue-bg p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.hero-section .info .white-bg{
+    display: flex;
+    padding: 5px 20px;
+    width: 50%;
+}
+.hero-section .info .white-bg img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.hero-section .info .white-bg p{
+    color: var(--main-bg-color-deep);
+    font-weight: 500;
+    font-size: 12px;
+    max-width: 60%;
+    line-height: 1.1rem;
+    text-align: left;
+}
+@media only screen and (max-width: 700px){
+    .hero-section .hero{
+        height: 70vh;
+    }
+    .hero-section .hero .text{
+        text-align: left;
+        padding-left: 2%;
+        top: 15%;
+    }
+    .hero-section .hero .text h2{
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    .hero-section .hero .text p{
+        font-size: 1.6rem;
+        width: 65%;
+    }
+    .hero-section .hero .btns{
+        top: 45%;
+        right: 10%;
+    }
+    .hero-section .hero button{
+        width: 70px;
+        height: 70px;
+    }
+    .hero-section .info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hero-section .info .blue-bg{
+        padding: 20px;
+        flex-basis: 100%;
+    }
+    .hero-section .info .blue-bg p{
+        font-size: 28px;
+    }
+    .hero-section .info .white-bg{
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+    }
+    .hero-section .info .white-bg p{
+        width: 100%;
+    }
+}

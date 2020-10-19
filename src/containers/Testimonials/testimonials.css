@@ -1,0 +1,87 @@
+.testimonials{
+    padding: 6.5rem 5% 0rem;
+    background: url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Mask\ Group\ 16.png);
+    background-size: contain;
+    background-position: center -90rem;
+    margin-bottom: 3rem;
+}
+.testimonials .cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.testimonials .cards .card{
+    width: 31.5%;
+    padding-left: 3%;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    text-align: left;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.testimonials .cards .card .round-image{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -2.5rem;
+    margin-bottom: 1rem;
+}
+.testimonials .cards .card .stars{
+    margin: 3rem 0 1rem;
+}
+.testimonials .cards .card .stars img{
+    margin-right: 0.3rem;
+    width: 1rem;
+}
+.testimonials .cards .card p{
+    font-size: 0.82rem;
+    color: rgb(150, 150, 150);
+    line-height: 1.5rem;
+}
+.testimonials .cards .card .card-footer{
+    margin-top: 1.5rem;
+    color: gray;
+}
+@media only screen and (max-width: 600px){
+    .testimonials{
+        padding: 6.5rem 5% 0rem;
+        margin-bottom: 3rem;
+    }
+    .testimonials .cards{
+        flex-wrap: wrap;
+    }
+    .testimonials .cards .card{
+        width: 100%;
+        padding-left: 3%;
+        margin-bottom: 3.5rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .testimonials .cards .card .round-image{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: -2rem;
+        margin-bottom: 1rem;
+    }
+    .testimonials .cards .card .stars{
+        margin: 3rem 0 1rem;
+    }
+    .testimonials .cards .card .stars img{
+        margin-right: 0.3rem;
+        width: 1rem;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px){
+    .testimonials{
+        padding: 6.5rem 0% 0rem;
+        margin-bottom: 3rem;
+    }
+    .testimonials .cards .card{
+        width: 32%;
+        padding-left: 3%;
+        margin-bottom: 3.5rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

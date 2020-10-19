@@ -1,0 +1,37 @@
+
+.feedpage-watertoolbox .watertoolbox-card{
+    border: 1px solid var(--main-bg-color-deep);
+}
+.feedpage-watertoolbox .bg-colored{
+    background: var(--main-bg-color-deep);
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedpage-watertoolbox .bg-colored h3{
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600;
+}
+.feedpage-watertoolbox .card-body{
+    height: 18rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.2rem;
+    align-items: flex-start;
+}
+.feedpage-watertoolbox .card-body .link{
+    display: block;
+}
+.feedpage-watertoolbox .card-body .round-div{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background: var(--main-bg-color-deep);
+    margin: 2rem 0.1rem 0.5rem 1rem;
+}
+.feedpage-watertoolbox .card-body h5{
+    text-transform: capitalize;
+    color: var(--main-bg-color-deep);
+}

@@ -1,0 +1,20 @@
+.feedpage{
+    width: 100%;
+}
+.feedpage .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10%;
+}
+.feedpage .feedpage-header{
+    margin: 0 10%;
+}
+.feedpage .content .column-1{
+    width: 20%;
+}
+.feedpage .content .column-2{
+    width: 57%;
+}
+.feedpage .content .column-3{
+    width: 20%;
+}

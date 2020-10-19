@@ -1,0 +1,115 @@
+.signup-form{
+    background: url(../../water\ gate\ assets/File4_1_.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/SHAPES\ IN\ BACKGROUND.png);
+    background-size: contain;
+    background-color: white;
+    background-repeat: repeat;
+}
+.signup-form form{
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.signup-form form .form-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup-form form .form-header h1{
+    font-weight: 400;
+}
+.signup-form form .form-header .log-in{
+    color: #006633;
+}
+.signup-form form .form-body{
+    text-align: left;
+    margin-top: 2rem;
+}
+.signup-form .form-body label{
+    display: block;
+    color: rgb(50, 50, 50);
+    font-size: 0.95rem;
+}
+.signup-form .form-body input[type=text], input[type=password]{
+    outline: none;
+    width: 100%;
+    padding: 0.5rem;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    color: rgb(50, 50, 50);
+    font-size: 0.95rem;
+}
+.signup-form .form-body .password{
+    padding-top: 4rem;
+}
+.signup-form .form-body .password-labels{
+    display: flex;
+    justify-content: space-between;
+}
+.signup-form .form-body .password-labels button{
+    color: #006633;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signup-form .form-body input[type=password]{
+    margin-bottom: 0.5rem;
+}
+.signup-form .form-footer{
+    text-align: left;
+}
+.signup-form .form-footer .checks{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin: 1rem 0;
+}
+.signup-form .form-footer .checks h4{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.signup-form .form-footer .checks > div input[type=checkbox]{
+    cursor: pointer;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    height: 17px;
+    width: 18px;
+    border: 2px solid #006633;
+}
+.signup-form .form-footer .checks > div input[type=checkbox]:after{
+    content: " ";
+    background-color: white;
+    display: inline-block;
+    visibility: visible;
+    border-radius: 5px;
+    border: 1px solid #006633;
+}
+.signup-form .form-footer .checks > div input[type=checkbox]:checked::after{
+    content: "\2714";
+    color: #006633;
+    text-align: center;
+    height: 17px;
+    width: 18px;
+    border: 2px solid #006633;
+}
+.signup-form .form-footer button{
+    width: 100%;
+    background-color: var(--main-bg-color-deep);
+    color: #fff;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+    .signup-form form{
+        width: 95%;
+    }
+}

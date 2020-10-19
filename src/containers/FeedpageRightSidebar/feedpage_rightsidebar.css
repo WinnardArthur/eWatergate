@@ -1,0 +1,44 @@
+.feedpage-rightsidebar .info-card{
+    border: 1px solid var(--main-bg-color-deep);
+    margin-top: 2rem;
+    padding: 2rem 0rem 5rem;
+}
+.feedpage-rightsidebar .info-card .link{
+    display: block;
+    text-align: center;
+    padding: 0.5rem 0.2rem;
+    color: var(--main-bg-color-deep);
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.feedpage-rightsidebar .info-card .link:last-child{
+    margin-top: 1.5rem;
+}
+.feedpage-rightsidebar .adds-card{
+    border: 1px solid var(--main-bg-color-deep);
+    margin-top: 2rem;
+}
+.feedpage-rightsidebar .adds-card .img-1{
+    width: 100%;
+    height: 12rem;
+}
+.feedpage-rightsidebar .adds-card .img-2{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    height: 10rem;
+}
+.feedpage-rightsidebar .adds-card .adds-text{
+    text-align: center;
+    padding: 1rem 0.2rem;
+}
+.feedpage-rightsidebar .adds-card h6{
+    text-align: center;
+    color: gray;
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+.feedpage-rightsidebar .adds-card .link{
+    color: var(--main-bg-color-light);
+}

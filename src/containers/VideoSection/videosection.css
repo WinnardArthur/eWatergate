@@ -1,0 +1,271 @@
+.video-section{
+    background-color: lavender;
+    background: url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Group-2-Copy-4_2_.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Group-1.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Group\ 1724.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Group\ 1725.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/agriculture-background.png);
+    background-repeat: repeat-y;
+    background-size: 4em, 5em, 75em, 50em, contain;
+    background-position: left, right top, 70% 50%, 28.5% 38%,center;
+    margin-top: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-section .tech-videos-btn{
+    background-color: var(--main-bg-color-deep);
+    color: white;
+    max-width: 10em;
+    padding: 10px 22px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 3px;
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.video-section .parent{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: flex-end;
+}
+.video-section .first-half{
+    flex-basis: 50%;
+}
+.video-section .first-half video{
+    width: 560px;
+    height: 420px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 20px;
+    object-fit: cover;
+}
+.video-section .second-part{
+    flex-basis: 50%;
+}
+.video-section .text{
+    margin-left: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.video-section .text h1{
+    text-transform: capitalize;
+    font-size: 34px;
+    font-weight: 600;
+    color: var(--main-bg-color-light);
+}
+.video-section .text h5{
+    color: var(--main-bg-color-deep);    
+    font-size: 15px;
+    max-width: 85%;
+    line-height: 1.5rem;
+}
+.video-section .text h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 1rem 0;
+    color: var(--main-bg-color-light);
+}
+.video-section .small-videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+.video-section .small-videos video{
+    width: 270px;
+    height: 200px;
+    outline: none;
+    object-fit: cover;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 700px){
+    .video-section{
+        background-repeat: no-repeat;
+        background-size: 4em, 5em, 75em, 50em, 100% 100%;
+        background-position: left, right top, 70% 50%, 28.5% 38%,center;
+        margin-top: 100px;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 00px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .video-section .tech-videos-btn{
+        font-size: 20px;
+    }
+    .video-section .parent{
+        display: flex;
+        flex-direction: row;
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: flex-end;
+    }
+    .video-section .first-half{
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .video-section .first-half video{
+        width: 100%;
+        height: 200px;
+        border-radius: 2px;
+        margin-top: 20px;
+    }
+    .video-section .second-part{
+        flex-basis: 100%;
+    }
+    .video-section .text{
+        margin-left: 0px;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    .video-section .text h1{
+        font-size: 28px;
+    }
+    .video-section .text h5{
+        font-size: 14px;
+        line-height: 1.3rem;
+    }
+    .video-section .text h3{
+        font-size: 22px;
+        margin: 1rem 0;
+    }
+    .video-section .small-videos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;   
+    }
+    .video-section .small-videos video{
+        width: 100%;
+        height: 200px;
+        outline: none;
+        object-fit: cover;
+        margin-top: 1rem;
+        border-radius: 2px;
+        margin-bottom: 1rem;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 1000px){
+    .video-section{
+        background-repeat: no-repeat;
+        margin-top: 100px;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+        padding-top: 50px;
+    }
+    .video-section .parent{
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: flex-end;
+    }
+    .video-section .first-half video{
+        width: 420px;
+        height: 330px;
+    }
+    .video-section .second-part{
+        flex-basis: 50%;
+    }
+    .video-section .text{
+        margin-left: 10px;
+        text-align: left;
+        margin-bottom: 0px;
+        margin-left: -20rem;
+        width: 33rem;
+    }
+    .video-section .small-videos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;   
+        margin-left: 1rem;
+    }
+    .video-section .small-videos video{
+        width: 250px;
+        height: 150px;
+        outline: none;
+        object-fit: cover;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1100px){
+    .video-section{
+        background-repeat: no-repeat;
+        margin-top: 100px;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+        padding-top: 50px;
+    }
+    .video-section .parent{
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        align-items: flex-end;
+    }
+    .video-section .first-half video{
+        width: 500px;
+        height: 400px;
+    }
+    .video-section .small-videos video{
+        width: 250px;
+        height: 180px;
+        outline: none;
+        object-fit: cover;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1280px){
+    .video-section{
+        background-repeat: no-repeat;
+        margin-top: 100px;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 20px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+        padding-top: 50px;
+    }
+    .video-section .parent{
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        align-items: flex-end;
+    }
+    .video-section .first-half video{
+        width: 500px;
+        height: 400px;
+    }
+    .video-section .small-videos video{
+        width: 250px;
+        height: 180px;
+        outline: none;
+        object-fit: cover;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+}

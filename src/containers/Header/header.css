@@ -1,0 +1,217 @@
+header{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    justify-content: space-between;
+    padding: 0 150px 0 50px;
+    border-top: 1px solid gray;
+}
+header form{
+    width: 15rem;
+}
+header form > input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 0.5rem;
+    color: black;
+    width: 100%;
+}
+header form > input:focus{
+    border-bottom: 2px solid var(--main-bg-color-light);
+    width: 18rem;
+    transition: 0.5s ease;
+}
+header form > input::placeholder{
+    color: var(--main-bg-color-light);
+    font-size: 1rem;
+}
+header li{
+    list-style: none;
+}
+header .links{
+    display: flex;
+    margin-right: 0px;
+}
+header .logo .small-logo{
+    display: none;
+}
+header .logo{
+    width: 12rem;
+    height: 4rem;
+}
+header img{
+    width: 100%;
+    height: 5rem;
+}
+header .links .link{
+    text-decoration: none;
+    color: var(--main-bg-color-deep);
+    font-size: 0.94rem;
+}
+header .links li{
+    margin: 0 15px;
+}
+header .links .btn{
+    background: var(--main-bg-color-deep);
+    color: white;
+    border-radius: 25px;
+    padding: 4px 30px;
+    text-align: center;
+}
+header nav .btn:hover{
+    color: white;
+}
+header .header-hamburger-icon{
+    cursor: pointer;
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    display: none;
+}
+header .header-hamburger-icon .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: var(--main-bg-color-deep);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.change .bar1{
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    -moz-transform: rotate(-45deg) translate(-9px, 6px);
+    -ms-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    -moz-transform: rotate(45deg) translate(-8px, 8px);
+    -ms-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+@media only screen and (max-width: 768px){
+    header{
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 1rem 0;
+        border-top: 0;
+        position: relative;
+    }
+    header form{
+        width: 10rem;
+        margin-left: -70%;
+    }
+    header form > input{
+        outline: none;
+        border: none;
+        border-bottom: 1px solid gray;
+        padding: 0.5rem 0.3rem;
+        color: black;
+        width: 10rem;
+    }
+    header form > input:focus{
+        border-bottom: 2px solid var(--main-bg-color-light);
+        width: 10rem;
+        transition: 0.5s ease;
+    }
+    header form > input::placeholder{
+        color: var(--main-bg-color-light);
+        font-size: 1rem;
+    }
+    header li{
+        list-style: none;
+    }
+    header .links{
+        display: none;
+        flex-direction: column;
+        margin-right: 0px;
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        height: 50vh;
+        top: 0;
+        z-index: 2;
+        padding-top: 1.5rem;
+        animation: links-animation 1s ease;
+    }
+    @keyframes links-animation{
+        0%{
+            transform: translateX(-200px);
+            opacity: 0.3;
+        }
+        100%{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    header .logo .default-logo{
+        display: none;
+    }
+    header .logo .small-logo{
+        display: block;
+    }
+    header .logo{
+        width: 4rem;
+        height: 2rem;
+    }
+    header img{
+        width: 4rem;
+        height: 100%;
+        margin-top: -1rem;
+    }
+    header .links .link{
+        font-size: 1.1rem;
+    }
+    header .links li{
+        margin: 25px 0;
+        text-align: center;
+    }
+    header .links .btn{
+        padding: 4px 50px;
+    }
+    header .header-hamburger-icon{
+        display: block;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 970px){
+    header{
+        padding: 0;
+        border-top: 1px solid gray;
+    }
+    header form{
+        width: 12rem;
+        margin-left: -1rem;
+    }
+    header form > input{
+        padding: 0.4rem;
+        width: 100%;
+    }
+    header form > input:focus{
+        width: 13rem;
+    }
+    header form > input::placeholder{
+        font-size: 1rem;
+    }
+    header .links{
+        display: flex;
+        margin-right: 0px;
+    }
+    header .logo{
+        width: 8rem;
+        height: 4rem;
+    }
+    header img{
+        width: 100%;
+        height: 5rem;
+    }
+    header .links li{
+        margin: 0 5px;
+    }
+}
+@media only screen and (min-width: 970px) and (max-width: 1200px){
+    header{
+        padding: 0;
+    }
+}

@@ -1,0 +1,42 @@
+.feedpage-profile{
+    border: 1px solid gray;
+}
+.feedpage-profile .bg-colored{
+    background: var(--main-bg-color-deep);
+    height: 3rem;
+}
+.feedpage-profile .info img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: -2rem auto 0; 
+    display: block;
+}
+.feedpage-profile .info .username{
+    color: var(--main-bg-color-deep);
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+.feedpage-profile .info p{
+    color: var(--main-bg-color-deep);
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.feedpage-profile .stats{
+    border-top: 2px solid var(--main-bg-color-deep);
+    margin: 0;
+    flex-direction: column;
+    padding: 0.2rem 1rem;
+    margin-top: 0.8rem;
+}
+.feedpage-profile .stats .stat{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    color: var(--main-bg-color-deep);
+    text-transform: capitalize;
+    font-weight: 500;
+}

@@ -1,0 +1,88 @@
+.contact-section{
+    background-image: url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Path\ 3885.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Ellipse\ 479.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Ellipse\ 479.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Ellipse\ 479.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Group-2-Copy-4_2_.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Group-1.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Group\ 1724.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Group\ 1725.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/lightblueBg.png);
+    background-position:80.08% 45.8%, 81.08% 45.2%, 81.55% 44.9%, 82.0% 44.5%, left, right ,70% 50%, 28.5% 38%, 100%;
+    background-repeat: no-repeat;
+    background-size: 0.9rem, 3.4rem, 4.5rem, 5.5rem, 4rem, 4rem, 75rem, 50rem, 100% 100%;
+    color: var(--main-bg-color-deep);
+    height: 380px;  
+    padding-top: 5rem;
+}
+.contact-section .text{
+    width: 32%;
+    text-align: left;
+    margin-left: 20%;
+}
+.contact-section .text h5{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+.contact-section .text h1{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.contact-section .text h1 span{
+    font-weight: 700;
+}
+.contact-section .text p{
+    font-size: 12.5px;
+    margin-bottom: 25px;
+    max-width: 367px;
+}
+.contact-section .text a{
+    background-color: white;
+    color: var(--main-bg-color-deep);
+    padding: 12px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+@media only screen and (max-width: 1200px){
+    .contact-section{
+        background-image: url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Path\ 3885.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Ellipse\ 479.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Ellipse\ 479.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Ellipse\ 479.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Group-2-Copy-4_2_.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Group-1.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Group\ 1724.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/Group\ 1725.png), url(../../water\ gate\ assets/BACKGROUND_SHAPES_WEBSITES/lightblueBg.png);
+        background-position:77.08% 53.5%, 79.0% 54%, 80.3% 54%, 82.0% 54.5%, left, right , 30% 80%, center 15%, center;
+        background-repeat: no-repeat;
+        background-size: 0.9em, 2.8em, 3.8em, 4.8em, 2.5em, 2.5em, 45em, 22em, 100% 100%;
+        color: var(--main-bg-color-deep);
+        margin: 0;
+        padding-top: 1.5rem;
+    }
+    .contact-section .text{
+        margin-left: 12%;
+        padding-top: 0px;
+        width: 80%;
+    }
+    .contact-section .text h5{
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    .contact-section .text h1{
+        text-transform: capitalize;
+        font-weight: 300;
+        font-size: 1.8em;
+        line-height: 2.8rem;
+    }
+    .contact-section .text span{
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 1.8em;
+    }
+    .contact-section .text p{
+        font-size: 13px;
+        margin-bottom: 60px;
+        max-width: 367px;
+    }
+    .contact-section .text a{
+        background-color: white;
+        color: #006633;
+        padding: 15px 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }   
+}
+@media only screen and (min-width: 600px) and (max-width: 780px){
+    .contact-section{
+        padding-top: 1rem;
+    }
+}

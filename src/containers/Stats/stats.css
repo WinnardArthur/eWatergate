@@ -1,0 +1,43 @@
+.stats{
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.stats .box{
+    background-color: var(--main-bg-color-deep);
+    color: white;
+    text-align: center;
+    width: 250px;
+    height: 120px;
+    padding-top: 20px;
+}
+.stats .box:nth-of-type(even){
+    background-color: var(--main-bg-color-light);
+}
+.stats .box .figure{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.stats .box p{
+    font-size: 13px;
+    text-align: center;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 600px){
+    .stats{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .stats .box{
+        width: 85%;
+        height: 120px;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+    .stats .box:nth-of-type(even){
+        background-color: var(--main-bg-color-light);
+    }
+}

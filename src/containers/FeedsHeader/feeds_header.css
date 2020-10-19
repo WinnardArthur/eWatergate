@@ -1,0 +1,52 @@
+.feeds-header{
+    background-color: var(--main-bg-color-deep);   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem 10% 0.1rem 1.1%;
+}
+.feeds-header .logo{
+    height: 2.5rem;
+    width: 15%;
+}
+.feeds-header .logo img{
+    height: 100%;
+    width: 100%;
+}
+.feeds-header form{
+    width: 25%;
+    position: relative;
+}
+.feeds-header form input{
+    width: 100%;
+    padding: 0.4rem 0.5rem;
+}
+.feeds-header form input:focus{
+    outline: 1px solid var(--main-bg-color-light);
+}
+.feeds-header form .fa-search{
+    position: absolute;
+    color: var(--main-bg-color-light);
+    right: 2%;
+    top: 0.3rem;
+    font-size: 1.3rem;
+    background-color: white;
+}
+.feeds-header ul{
+    display: flex;
+}
+.feeds-header ul li{
+    list-style-type: none;
+    padding: 0.5rem 0.7rem;
+}
+.feeds-header ul li .link{
+    color: white;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.feeds-header ul li .link .link-icon{
+    display: block;
+    font-size: 1.4rem;
+    text-align: center;
+}
