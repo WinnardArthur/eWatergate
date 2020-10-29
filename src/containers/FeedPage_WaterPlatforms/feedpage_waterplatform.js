@@ -8,13 +8,13 @@ export class FeedpageWaterPlatform extends Component {
             <div className="feedpage-waterplatform">
                 <div className="bg-colored"><h3>water platforms</h3></div>
                 <div className="card-body">
-                    <Link to="#" className="water-link"><i className="fa fa-tv"></i>water media</Link>
-                    <Link to="#" className="water-link"><i className="fa fa-tv"></i>water tv</Link>
-                    <Link to="#" className="water-link"><i className="fa fa-tv"></i>water answers</Link>
-                    <Link to="#" className="water-link"><i className="fa fa-circle"></i>water digital</Link>
-                    <Link to="#" className="water-link"><i className="fa fa-circle"></i>water research</Link>
-                    <Link to="#" className="water-link"><i className="fa fa-circle"></i>water answers</Link>
-                    <Link to="#" className="water-link"><i className="fa fa-circle"></i>water digital</Link>
+                    <Link to="#" className="water-link"><img src={require("../../water gate assets/logo/WaterMedia.png")} alt="water media"/>water media</Link>
+                    <Link to="#" className="water-link"><img src={require("../../water gate assets/logo/WaterTV.png")} alt="water tv"/>water tv</Link>
+                    <Link to="#" className="water-link"><img src={require("../../water gate assets/logo/WaterAnswers.jpg")} alt="water answers"/>water answers</Link>
+                    <Link to="#" className="water-link"><img src={require("../../water gate assets/logo/WaterDigital2.png")} alt="water answers"/>water digital</Link>
+                    <Link to="#" className="water-link"><img src={require("../../water gate assets/logo/WaterResearch.png")} alt="water answers"/>water research</Link>
+                    <Link to="#" className="water-link"><img src={require("../../water gate assets/logo/WaterAnswers.jpg")} alt="water answers"/>water answers</Link>
+                    <Link to="#" className="water-link"><img src={require("../../water gate assets/logo/WaterDigital2.png")} alt="water answers"/>water digital</Link>
                 </div>
             </div>
         )

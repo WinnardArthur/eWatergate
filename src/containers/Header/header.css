@@ -172,7 +172,7 @@ header .header-hamburger-icon .bar1, .bar2, .bar3 {
         padding: 4px 50px;
     }
     header .header-hamburger-icon{
-        display: block;
+        display: inline-block;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 970px){

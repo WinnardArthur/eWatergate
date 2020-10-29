@@ -34,12 +34,22 @@ const HeaderLinks = [
     }
 ]
 
-export class FeedsHeader extends Component {
+class FeedsHeader extends Component {
+    
+    handleHamburger = event => {
+        const dropdown = document.querySelector('.links')
+        if(dropdown.style.display === "block"){
+            dropdown.style.display = "none"
+        } else{
+            dropdown.style.display = "block"
+        }
+    }
+
     render() {
         return (
             <div className="feeds-header">
                 <div className="logo">
-                    <img src={require("../../water gate assets/e-watergate logo.png")} alt="ewatergate"/>
+                    <Link to="/" className="default-logo"><img src={require("../../water gate assets/logo/logo ewater.png")} alt="ewatergate logo"/></Link>
                 </div>
                 <form>
                     <input 
@@ -49,7 +59,7 @@ export class FeedsHeader extends Component {
                     />
                     <i className="fa fa-search"></i>
                 </form>
-                <ul>
+                <ul className="links">
                     {HeaderLinks.map((link, i)=>(
                         <li key={i}>
                             <Link to="#" className="link">
@@ -59,6 +69,11 @@ export class FeedsHeader extends Component {
                         </li>
                     ))}
                 </ul>
+                <div className="feeds-header-humburger-icon" onClick={e => this.handleHamburger(e)}>
+                    <div className="feeds-bar1"></div>
+                    <div className="feeds-bar2"></div>
+                    <div className="feeds-bar3"></div>
+                </div>
             </div>
         )
     }

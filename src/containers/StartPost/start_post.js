@@ -8,21 +8,21 @@ class StartPost extends Component {
             <div className="start-post">
                 <div className="row-1">
                     <button>
-                        <i className="fa fa-edit"></i>
+                        <img src={require("../../water gate assets/logo/Icon 6.jpg")} alt="write-post" />
                         <h6>Start a post</h6>
                     </button>
                 </div>
                 <div className="buttons">
                     <button>
-                        <i className="fa fa-camera"></i>
+                        <img src={require("../../water gate assets/logo/Icon 4.jpg")} alt="camera"/>
                         Photo
                     </button>
                     <button>
-                        <i className="fa fa-camera"></i>
+                    <img src={require("../../water gate assets/logo/Icon 5.jpg")} alt="video"/>
                         Video
                     </button>
                     <button>
-                        <i className="fa fa-edit"></i>
+                        <img src={require("../../water gate assets/logo/Icon 6.jpg")} alt="write-post" />
                         Write article
                     </button>
                 </div>

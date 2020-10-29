@@ -33,6 +33,11 @@
     display: flex;
     align-items: center;
 }
+.feedpage-waterplatform .card-body .water-link img{
+    width: 2rem;
+    display: block;
+    margin-right: 0.2rem;
+}
 .feedpage-waterplatform .card-body .water-link .fa{
     font-size: 2rem;
     display: block;

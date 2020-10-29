@@ -221,3 +221,162 @@
     font-size: 1.3rem;
     margin-right: 0.4rem;
 }
+@media only screen and (max-width: 992px){
+    .feeds-media .category{
+        padding: 1rem 0.5rem;
+    }
+    .feeds-media .category p{
+        font-size: 0.95rem;
+    }
+    .feeds-media .category p span{
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .feeds-media .media-one{
+        border: 2px solid var(--main-bg-color-deep);
+    }
+    .feeds-media .media-one .water-category{
+        padding: 0.3rem 0.5rem;
+        right: 0;
+    }
+    .feeds-media .media-one .water-category h5{
+        font-size: 0.8rem;
+        letter-spacing: 0.02rem;
+    }
+    .feeds-media .media-one .heading{
+        padding-right: 0.8rem;
+        padding-top: 1rem;
+    }
+    .feeds-media .media-one .heading .left-info{
+        display: flex;
+        align-items: center;
+    }
+    .feeds-media .media-one .heading .left-info .user-info h5{
+        font-size: 0.84rem;
+    }
+    .feeds-media .media-one .heading .left-info .user-info span{
+        margin-left: 1.3rem;
+    }
+    .feeds-media .media-one .heading .left-info .user-info p{
+        font-size: 0.8rem;
+    }
+    .feeds-media .media-one .heading .ellipses{
+        font-size: 2rem;
+    }
+    .feeds-media .media-one .round-div{
+        height: 3rem;
+        width: 3rem;
+        margin-right: 0.2rem;
+    }
+    .feeds-media .media-one .text{
+        font-size: 0.903rem;
+        padding-left: 0.3rem;
+        margin: 0.2rem 0 1.5rem;
+    }
+    .feeds-media .media-one .media-video{
+        width: 100%;
+        padding: 0 0.1rem;
+    }
+    .feeds-media .media-one .media-video video{
+        height: 20rem;
+        object-fit: cover;
+    }
+    .feeds-media .media-one .media-stats{
+        padding-left: 1rem;
+    }
+    .feeds-media .media-one .media-stats p{
+        margin: 0.6rem 2rem 0.8rem 0;
+        font-size: 0.95rem;
+    }
+    .feeds-media .media-one .options{
+        padding: 0.5rem 0.2rem 0.5rem 0rem;
+    }
+    .feeds-media .media-one .options button{
+        font-size: 1rem;
+        padding-left: 0.3rem;
+    }
+    .feeds-media .media-one .options .message-btn button{
+        padding: 0.3rem 0.5rem;
+        border-radius: 3px;
+        font-size: 0.8rem;
+    }
+    .feeds-media .media-one .options .multiple-btns button{
+        font-size: 1rem;
+        margin-right: 0.8rem;
+    }
+    .feeds-media .media-one .options .multiple-btns button:last-child{
+        margin-right: 0;
+    }
+    .feeds-media .media-one .options .multiple-btns button .fa{
+        padding: 0.3rem;
+        font-size: 0.6rem;
+        margin-right: 0.1rem;
+    }
+    .feeds-media .media-one .options .multiple-btns button h6{
+        font-size: 0.8rem;
+    }
+    .feeds-media .media-one .comment-area{
+        align-items: center;
+        padding: 0.4rem 0 1.5rem;
+        margin-top: 1rem;
+    }
+    .feeds-media .media-one .comment-area .comment h5{
+        font-size: 0.9rem;
+    }
+    .feeds-media .media-one .comment-area .comment h5 span{
+        margin-left: 1.2rem;
+    }
+    .feeds-media .media-one .comment-area input{
+        padding: 0.7rem 0.5rem;
+    }
+    .feeds-media .media-one .comment-area input::placeholder{
+        font-size: 0.83rem;
+    }
+    .feeds-media .media-two{
+        margin-top: 2.5rem;
+    }
+    .feeds-media .media-two .comments{
+        padding-right: 0.4rem;
+    }
+    .feeds-media .media-two .comments .comment-row{
+        margin-top: 1.2rem;
+    }
+    .feeds-media .media-two .comments .comment-row .main-comment{
+        display: flex;
+    }
+    .feeds-media .media-two .comments .comment-row .sub-comment{
+        padding-left: 12%;
+        margin-top: 1rem;
+    }
+    .feeds-media .media-two .comments .comment-row .main-comment .comment-info{
+        width: 95%;
+    }
+    .feeds-media .media-two .comments .comment-row .main-comment .comment-info h5{
+        color: var(--main-bg-color-deep);
+        font-size: 0.93rem;
+    }
+    .feeds-media .media-two .comments .comment-row .main-comment .comment-info span{
+        margin-left: 1.5rem;
+    }
+    .feeds-media .media-two .comments .comment-row .main-comment .comment-info p{
+        border: 1px solid var(--main-bg-color-deep);
+        border-radius: 8px;
+        padding: 0.5rem 0.5rem 0.8rem;
+        font-size: 0.9rem;
+        color: var(--main-bg-color-deep);
+        font-weight: 500;
+        margin-top: 0.1rem;
+    }
+    .feeds-media .media-two .comments .comment-row .main-comment .comment-info .like-comment {
+        display: flex;
+    }
+    .feeds-media .media-two .comments .comment-row .main-comment .comment-info .like-comment button{
+        font-weight: 600;
+        font-size: 0.9rem;
+        margin-right: 2rem;
+    }
+    .feeds-media .media-two .comments .comment-row .main-comment .comment-info .like-comment button .fa{
+        font-size: 1.3rem;
+        margin-right: 0.4rem;
+    }
+}

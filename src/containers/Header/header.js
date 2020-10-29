@@ -14,7 +14,7 @@ export class Header extends Component {
 
 
     handleHamburger = event => {
-        event.target.classList.toggle("change")
+        // event.target.classList.toggle("change")
         const dropdown = document.querySelector('.links')
         if(dropdown.style.display === "block"){
             dropdown.style.display = "none"

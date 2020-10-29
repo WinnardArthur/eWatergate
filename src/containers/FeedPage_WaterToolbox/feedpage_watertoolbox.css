@@ -15,23 +15,27 @@
     font-weight: 600;
 }
 .feedpage-watertoolbox .card-body{
-    height: 18rem;
     display: flex;
-    justify-content: space-between;
-    padding: 0 0.2rem;
+    justify-content: flex-start;
+    padding: 0.5rem 0 1rem;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 .feedpage-watertoolbox .card-body .link{
     display: block;
+    margin-right: 0.2rem;
+    width: 30%;
+    margin-bottom: 0.5rem;
 }
-.feedpage-watertoolbox .card-body .round-div{
-    height: 3rem;
-    width: 3rem;
-    border-radius: 50%;
-    background: var(--main-bg-color-deep);
-    margin: 2rem 0.1rem 0.5rem 1rem;
+.feedpage-watertoolbox .card-body img{
+    width: 100%;
+    height: 100%;
 }
 .feedpage-watertoolbox .card-body h5{
     text-transform: capitalize;
     color: var(--main-bg-color-deep);
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: -0.3rem;
+    font-weight: 500;
 }

@@ -4,7 +4,7 @@
     text-align: left;
 }
 .start-post .row-1{
-    padding: 1rem 2rem 3rem;
+    padding: 1rem 2rem 2rem;
 }
 .start-post .row-1 button{
     color: var(--main-bg-color-deep);
@@ -16,8 +16,8 @@
     display: flex;
     align-items: center;
 }
-.start-post .row-1 button .fa-edit{
-    font-size: 3rem;
+.start-post .row-1 button img{
+    width: 3rem;
     font-weight: 400;
 }
 .start-post .row-1 button h6{
@@ -38,9 +38,38 @@
     font-weight: 600;
     cursor: pointer;
 }
-.start-post .buttons button .fa{
+.start-post .buttons button img{
     display: block;
-    font-size: 2rem;
+    width: 2rem;
     text-align: center;
     margin-bottom: 0.2rem;
+}
+@media only screen and (max-width: 480px){
+    .start-post{
+        margin-top: 2rem;
+    }
+    .start-post .row-1{
+        padding: 1rem 1rem 1.8rem;
+    }
+    .start-post .row-1 button{
+        font-weight: 400;
+    }
+    .start-post .row-1 button img{
+        width: 2.5rem;
+    }
+    .start-post .buttons{
+        padding: 0.5rem 1rem;
+    }
+    .start-post .buttons button{
+        margin-right: 2.2rem;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 0.75rem;
+    }
+    .start-post .buttons button img{
+        display: block;
+        width: 1.7rem;
+        text-align: center;
+        margin-bottom: 0.2rem;
+    }
 }
